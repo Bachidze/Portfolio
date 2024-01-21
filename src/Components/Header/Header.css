@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: Black;
+    transition: 1s;
+}
+
+header{
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.GiorgiBachidze{
+    color: white;
+    font-size: 24px;
+    font-family: Space Grotesk;
+    font-weight: 700;
+    line-height: 32px;
+    word-wrap: break-word;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.GiorgiBachidze:hover{
+    color: transparent;
+    background: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+    background-clip: text;
+    transform: scale(1.1);
+}
+
+.insta:hover path {
+    fill: purple;
+    transform: scale(1.1);
+}
+.github:hover path {
+    fill: purple;
+    transform: scale(1.1);
+}
+.linkedin:hover path {
+    fill: purple;
+    transform: scale(1.1);
+}
+.frontendmentor:hover path {
+    fill: purple;
+    transform: scale(1.1);
+}
+
+
+.insta{
+    width: 26px;
+    height: 26px;
+}
+
+.media{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.photo{
+    display: flex;
+    justify-content: center;
+}
+
+.absolute1{
+    position: absolute;
+    left: 0;
+    top: 130px;
+    background-color: transparent;
+}
+.absolute2{
+    position: absolute;
+    right: 0;
+    background-color: transparent;
+    top: 430px;
+}
+
+.GreetGiorgi{
+    color: white;
+    font-size: 36px;
+    font-family: Space Grotesk;
+    font-weight: 700;
+    line-height: 40px;
+    word-wrap: break-word;
+    text-align: center;
+    width: 355px;
+    padding-top: 40px;
+}
+
+.border{
+    background: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+    width: 275px;
+    height: 2px;
+    display: flex;
+    position: relative;
+    left: 30px;
+}
+
+.txt{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutme{
+    color: #D9D9D9;
+    font-size: 16px;
+    font-family: Space Grotesk;
+    font-weight: 500;
+    line-height: 26px;
+    word-wrap: break-word;
+    text-align: center;
+    width: 355px;
+    padding-top: 20px;
+    padding-bottom: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.contact a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: Space Grotesk;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 2.29px;
+    word-wrap: break-word;
+}
+
+.border2{
+    background: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+    width: 125px;
+    height: 2px;
+    display: flex;
+    margin-top: 4px;
+}
+
+

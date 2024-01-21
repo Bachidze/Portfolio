@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.GiorgiBachidze{
+    text-align: center;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 16px;
+    gap: 40px;
+}
+
+input{
+    width: 340px;
+    height: 43px;
+    border: transparent;
+    border-bottom: 2px solid white;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    font-family: Space Grotesk;
+    font-weight: 500;
+    line-height: 26px;
+    word-wrap: break-word;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    white-space: break-word;
+    word-break: break-all;
+}
+
+.messagemargin{
+    padding-bottom: 70px;
+    height: auto;
+    z-index: 2;
+    background-color: transparent;
+}
+
+.absolute3{
+    position: absolute;
+    top: 4840px;
+}
+
+.send{
+    color: white;
+    font-size: 16px;
+    font-family: Space Grotesk;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 2.29px;
+    word-wrap: break-word;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.borderr{
+    height: 2px;
+    width: 140px;
+    margin-bottom: 100px;
+    margin-right: 3px;
+    background: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+}
+
+.sendmessage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 32px;
+    margin-left: 215px;
+}
+
+.border7{
+    height: 2px;
+    width: 340px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+}
+
+
+.GiorgiBachidze2{
+    color: white;
+    font-size: 34px;
+    font-family: Space Grotesk;
+    font-weight: 700;
+    line-height: 40px;
+    word-wrap: break-word;
+    text-align: center;
+    width: 355px;
+    padding-top: 40px;
+    padding-bottom: 32px;
+}
+
+.media2{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+
+.inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fl{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
