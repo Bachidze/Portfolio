@@ -143,7 +143,7 @@ const Projects = () => {
 
             <div className='fourth'>
 
-            <img className='cardimg' src="/assets/weather-xqhs9axpy8btfd3y.jpg" alt="card" />
+            <img className='cardimg width2' src="/assets/weather-xqhs9axpy8btfd3y.jpg" alt="card" />
 
             <div className='firsttxt'>
 

@@ -42,7 +42,9 @@ const Header = () => {
     <div className='flex'>
 
         <div className='photo'>
-            <img src="/assets/instaphoto.jpg" alt="" />
+            <div className='mainabsolute'>
+            <img  src="/assets/instaphoto.jpg" alt="" />
+            </div>
             <img className='absolute1' src="/assets/Group 26 Copy.svg" alt="" />
             <img className='absolute2' src="/assets/Oval (15).svg" alt="" />
         </div>

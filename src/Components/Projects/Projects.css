@@ -32,6 +32,7 @@
     font-weight: 700;
     line-height: 40px;
     word-wrap: break-word;
+    overflow: hidden;
 }
 
 .project{
@@ -117,3 +118,25 @@
     gap: 10px;
 }
 
+.width2{
+    height: 250px;
+}
+
+
+@media(width >= 768px) {
+    .maingrid{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .project{
+        gap: 450px;
+    }
+
+    .cardimg{
+        width: 350px;
+    }
+    .width2{
+        height: 258px;
+    }
+}
