@@ -77,3 +77,14 @@
         top: 1100px;
     }
 }
+
+@media (width >= 1440px){
+    .grid{
+        grid-template-columns: repeat(3,auto);
+        margin-left: 130px;
+    }
+
+    .bgimg{
+        top: 900px;
+    }
+}

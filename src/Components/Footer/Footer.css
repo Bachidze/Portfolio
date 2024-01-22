@@ -141,6 +141,16 @@ form{
     right: 9px;
 }
 
+.send:hover{
+    color: purple;
+    transition: 1s;
+}
+
+.GiorgiBachidze2:hover{
+    color: purple;
+    transition: 1s;
+    cursor: pointer;
+}
 @media (width >= 768px) {
     .con{
         color: white;
@@ -159,7 +169,7 @@ form{
 
     .absolute3{
         position: absolute;
-        top: 2090px;
+        top: 3260px;
     }
 
     input{
@@ -186,5 +196,57 @@ form{
         position: relative;
         top: 25px;
         padding-right: 46px;
+    }
+}
+
+
+@media (width >= 1440px){
+    .likaflex{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 200px 150px;
+    }
+
+    .absolute3{
+        left: 0;
+    }
+
+    .con{
+        font-size: 88px;
+        position: relative;
+        right: 70px;
+        top: -90px;
+    }
+
+    .paragraph{
+        font-size: 18px;
+        width: 480px;
+        text-align: left;
+        position: relative;
+        top: -90px;
+    }
+
+    input{
+        width: 445px;
+    }
+
+    .sendmessage{
+        margin-top: -100px;
+        position: relative;
+        left: 430px;
+    }
+
+    .media2{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        margin-right: 110px;
+    }
+
+    .GiorgiBachidze2{
+        position: relative;
+        left: 30px;
+        width: 500px;
     }
 }

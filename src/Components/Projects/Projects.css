@@ -48,6 +48,7 @@
 .cardimg{
     width: 340px;
     margin: 40px 16px;
+    cursor: pointer;
 }
 
 .maingrid{
@@ -73,6 +74,7 @@
     word-wrap: break-word;
     margin-top: 7px;
 }
+
 
 .firsttxt{
     margin-left: 16px;
@@ -122,6 +124,11 @@
     height: 250px;
 }
 
+a:hover{
+    color: purple;
+    transition: 1s;
+}
+
 
 @media(width >= 768px) {
     .maingrid{
@@ -138,5 +145,35 @@
     }
     .width2{
         height: 258px;
+    }
+}
+
+@media (width >= 1440px){
+    .isnideproject{
+        color: white;
+        font-size: 88px;
+        font-family: Space Grotesk;
+        font-weight: 700;
+        line-height: 88px;
+        word-wrap: break-word;
+    }
+
+    .project{
+        display: flex;
+        justify-content: space-between;
+       margin: 100px 140px;
+    }
+
+    .cardimg{
+        width: 600px;
+    }
+
+    .width2{
+        height: 440px;
+    }
+
+    .maingrid{
+        gap: 10px
+        ;
     }
 }
