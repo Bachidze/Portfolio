@@ -28,12 +28,13 @@ function App() {
             height: 50,
             borderRadius: '50%',
             background: 'transparent', 
-            border: '2px solid white',
+            border: '2px solid purple',
             transform: 'translate(-50%, -50%)',
             left: `${position.x}px`,
             top: `${position.y}px`,
             pointerEvents: 'none', 
             zIndex: 9999, 
+            transition:'0.1s'
           }}
         ></div>
       </div>

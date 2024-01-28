@@ -46,7 +46,8 @@ header {
     background: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
     background-clip: text;
     transform: scale(1.1);
-    animation: none; 
+    animation: none;
+    fill: purple; 
 }
 
 @keyframes colorChange {

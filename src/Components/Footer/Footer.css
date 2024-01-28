@@ -61,6 +61,7 @@ input{
     word-wrap: break-word;
     margin-bottom: 5px;
     cursor: pointer;
+    animation: colorChange 5s infinite;
 }
 
 .borderr{
@@ -100,6 +101,8 @@ input{
     padding-bottom: 32px;
     animation: colorChange 5s infinite;
 }
+
+
 
 @keyframes colorChange {
     0% {
@@ -176,6 +179,7 @@ form{
         display: flex;
         justify-content: center;
         margin-top: 100px;
+        animation: colorChange 5s infinite;
     }
 
     .paragraph{
