@@ -1,23 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&display=swap');
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.contact2 a{
+.contact2 a {
     text-decoration: none;
     color: white;
     font-size: 16px;
-    font-family: Space Grotesk;
+    font-family: 'Space Grotesk';
     font-weight: 700;
     line-height: 26px;
     letter-spacing: 2.29px;
     word-wrap: break-word;
-
+    transition: color 1s; /* Animation added here */
 }
 
-.border4{
+.contact2 a:hover {
+    color: purple;
+}
+
+.project2 a,
+.code a {
+    color: white;
+    font-size: 16px;
+    font-family: 'Space Grotesk';
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 2.29px;
+    word-wrap: break-word;
+    margin-left: 16px;
+    margin-right: 16px;
+    text-decoration: none;
+    transition: color 1s; /* Animation added here */
+}
+
+.project2 a:hover,
+.code a:hover {
+    color: purple;
+}
+
+.border4 {
     background: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
     width: 125px;
     height: 2px;
@@ -25,69 +49,69 @@
     margin-top: 4px;
 }
 
-.isnideproject{
+.isnideproject {
     color: white;
     font-size: 40px;
-    font-family: Space Grotesk;
+    font-family: 'Space Grotesk';
     font-weight: 700;
     line-height: 40px;
     word-wrap: break-word;
     overflow: hidden;
 }
 
-.project{
+.project {
     margin-left: 16px;
     margin-right: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 55px ;
+    gap: 55px;
     margin-top: 100px;
 }
 
-.cardimg{
+.cardimg {
     width: 340px;
     margin: 40px 16px;
     cursor: pointer;
 }
 
-.maingrid{
+.maingrid {
     display: grid;
     justify-content: center;
 }
 
-.firsth1{
+.firsth1 {
     color: white;
     font-size: 24px;
-    font-family: Space Grotesk;
+    font-family: 'Space Grotesk';
     font-weight: 700;
     line-height: 32px;
     word-wrap: break-word;
 }
 
-.languages h5{
+.languages h5 {
     color: #D9D9D9;
     font-size: 18px;
-    font-family: Space Grotesk;
+    font-family: 'Space Grotesk';
     font-weight: 500;
     line-height: 28px;
     word-wrap: break-word;
     margin-top: 7px;
 }
 
-
-.firsttxt{
+.firsttxt {
     margin-left: 16px;
 }
 
-.border5{
+.border5 {
     background: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
     width: 135px;
     height: 2px;
     display: flex;
     margin: 4px 16px;
 }
-.border6{
+
+.border6 {
     background: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
     width: 100px;
     height: 2px;
@@ -95,85 +119,69 @@
     margin: 4px 16px;
 }
 
-.project2 a,.code a{
-    color: white;
-    font-size: 16px;
-    font-family: Space Grotesk;
-    font-weight: 700;
-    line-height: 26px;
-    letter-spacing: 2.29px;
-    word-wrap: break-word;
-    margin-left: 16px;
-    margin-right: 16px;
-    text-decoration: none;
-}
-
-.viewproject{
+.viewproject {
     display: flex;
     align-items: center;
-    
     margin-top: 20px;
 }
 
-.languages2{
+.languages2 {
     display: flex;
     gap: 10px;
 }
 
-.width2{
+.width2 {
     height: 250px;
 }
 
-a:hover{
+a:hover {
     color: purple;
     transition: 1s;
 }
 
-
-@media(width >= 768px) {
-    .maingrid{
+@media (width >= 768px) {
+    .maingrid {
         display: grid;
         grid-template-columns: auto auto;
     }
 
-    .project{
+    .project {
         gap: 450px;
     }
 
-    .cardimg{
+    .cardimg {
         width: 350px;
     }
-    .width2{
+    .width2 {
         height: 258px;
     }
 }
 
-@media (width >= 1440px){
-    .isnideproject{
+@media (width >= 1440px) {
+    .isnideproject {
         color: white;
         font-size: 88px;
-        font-family: Space Grotesk;
+        font-family: 'Space Grotesk';
         font-weight: 700;
         line-height: 88px;
         word-wrap: break-word;
     }
 
-    .project{
+    .project {
         display: flex;
         justify-content: space-between;
-       margin: 100px 140px;
+        margin: 100px 140px;
     }
 
-    .cardimg{
+    .cardimg {
         width: 600px;
     }
 
-    .width2{
+    .width2 {
         height: 440px;
     }
 
-    .maingrid{
-        gap: 10px
-        ;
+    .maingrid {
+        gap: 10px;
     }
 }
