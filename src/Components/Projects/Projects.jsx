@@ -143,12 +143,12 @@ const Projects = () => {
 
             <div className='fourth'>
 
-            <img className='cardimg width2' src="/assets/weather-xqhs9axpy8btfd3y.jpg" alt="card" />
+            <img className='cardimg width2' src="/assets/dddd.jpg" alt="card" />
 
             <div className='firsttxt'>
 
                     <h1 className='firsth1'>
-                        WeatherAPI
+                        Password-Generator
                     </h1>
 
                     <div className='languages'>
@@ -162,13 +162,13 @@ const Projects = () => {
             <div className='viewproject'>
                 <div className='project2'>
                 
-                        <a href="https://weather-api-two-sepia.vercel.app/">VIEW PROJECT</a>
+                        <a href="https://password-generator-emt3.vercel.app/">VIEW PROJECT</a>
 
                     <div className='border5'></div>
                 </div>
                 <div className='code'>
                     
-                    <a href="https://github.com/Bachidze/WeatherAPI">VIEW CODE</a>
+                    <a href="https://github.com/Bachidze/PasswordGenerator">VIEW CODE</a>
 
                     <div className='border6'></div>
                 </div>
