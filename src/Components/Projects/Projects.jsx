@@ -222,23 +222,23 @@ const Projects = () => {
 
         <div className='sixth'>
 
-                    <img className='cardimg' src="/assets/l0nkljeqewyxuw0vedhd.webp" alt="card" />
+                    <img className='cardimg width2' src="/assets/clockappfront.jpg" alt="card" />
 
             <div className='firsttxt'>
 
                 <h1 className='firsth1'>
-                    AdviceApp
+                    Clock-App-IP
                 </h1>
 
                 <div className='languages languages2'>
                     <h5>
-                        HTML
+                        REACT
                     </h5>
                     <h5>
-                        CSS
+                        Typescript
                     </h5>
                     <h5>
-                        Javasript
+                        Tailwind
                     </h5>
                 </div>
 
@@ -247,13 +247,13 @@ const Projects = () => {
             <div className='viewproject'>
                 <div className='project2'>
                 
-                        <a href="https://adviceapp-eight.vercel.app/">VIEW PROJECT</a>
+                        <a href="https://clock-axios-app.vercel.app/">VIEW PROJECT</a>
 
                     <div className='border5'></div>
                 </div>
                 <div className='code'>
                     
-                    <a href="https://github.com/Bachidze/adviceapp">VIEW CODE</a>
+                    <a href="https://github.com/Bachidze/Clock-Axios-App">VIEW CODE</a>
 
                     <div className='border6'></div>
                 </div>
