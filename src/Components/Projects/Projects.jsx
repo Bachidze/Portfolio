@@ -1,17 +1,17 @@
 import React from 'react'
 import './Projects.css'
-const Projects = () => {
+const Projects = ({show2}) => {
   return (
     <>
 
-    <div className='project'>
-       <div>
+   {show2&&<div className='project'>
+       <div className='header-44'>
             <h1 className='isnideproject'>
                 Projects
             </h1>
        </div>
 
-       <div>
+       <div className='header-55'>
        <h3 className='contact2'>
                 <a href="https://www.linkedin.com/in/giorgi-bachidze-11b68426b/">
                     CONTACT ME
@@ -20,11 +20,11 @@ const Projects = () => {
             <div className="border4"></div>
        </div>
 
-    </div>
+    </div>}
 
     <div className='maingrid'>
 
-        <div className='first'>
+        {show2 &&<div className='first header-66'>
 
             <img className='cardimg' src="/assets/cardphoto.jpg" alt="card" />
 
@@ -57,9 +57,9 @@ const Projects = () => {
                 </div>
             </div>
 
-        </div>
+        </div>}
 
-        <div className='second'>
+        {show2&&<div className='second header-77'>
 
                 <img className='cardimg' src="/assets/cof.webp" alt="card" />
 
@@ -98,11 +98,11 @@ const Projects = () => {
                     </div>
                 </div>
 
-                </div>
+        </div>}
 
-        <div className='third'>
+        {show2&&<div className='third header-66'>
 
-                <img className='cardimg' src="/assets/countries.png" alt="card" />
+                <img className='cardimg width2' src="/assets/countries.png" alt="card" />
 
                 <div className='firsttxt'>
 
@@ -120,7 +120,7 @@ const Projects = () => {
                             <h5>
                                 TailwindCSS
                             </h5>
-                        </div>
+                     </div>
 
                 </div>
 
@@ -139,9 +139,9 @@ const Projects = () => {
                     </div>
                 </div>
 
-            </div>
+            </div>}
 
-            <div className='fourth'>
+           { show2&&<div className='fourth header-77'>
 
             <img className='cardimg width2' src="/assets/dddd.jpg" alt="card" />
 
@@ -176,9 +176,9 @@ const Projects = () => {
 
 
 
-        </div>
+        </div>}
 
-        <div className='fifth'>
+       {show2&&<div className='fifth header-66'>
 
                  <img className='cardimg' src="/assets/count.webp" alt="card" />
 
@@ -218,9 +218,9 @@ const Projects = () => {
             </div>
 
 
-        </div>
+        </div>}
 
-        <div className='sixth'>
+        {show2&&<div className='sixth header-77'>
 
                     <img className='cardimg width2' src="/assets/clockappfront.jpg" alt="card" />
 
@@ -259,7 +259,7 @@ const Projects = () => {
                 </div>
             </div>
 
-        </div>
+        </div>}
 
       
 

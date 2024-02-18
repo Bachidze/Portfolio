@@ -1,44 +1,46 @@
 import React from 'react'
 import './Main.css'
 
-const Main = () => {
+const Main = ({show}) => {
+ 
+
   return (
     <>
 
-    <div className='bord'>
+   <div className='bord'>
     <div className='border3'></div>
     </div>
 
     <div className='grid'>
-        <div>
+       {show &&<div className='header-1'>
             <h1 className='lang'>HTML</h1>
             <p className='par'>Year Experience</p>
-        </div>
-        <div>
+        </div>}
+        {show &&<div className='header-3'>
         <h1 className='lang'>CSS</h1>
             <p className='par'>Year Experience</p>
-        </div>
-        <div>
+        </div>}
+       { show &&<div className='header-2'>
         <h1 className='lang'>Javascript</h1>
             <p className='par'>Year Experience</p>
-        </div>
-        <div>
+        </div>}
+        {show &&<div className='header-1'>
         <h1 className='lang'>Accessibility</h1>
             <p className='par'>Year Experience</p>
-        </div>
-        <div>
+        </div>}
+        {show &&<div className='header-3'>
         <h1 className='lang'>React</h1>
             <p className='par'>Year Experience</p>
-        </div>
-        <div>
-        <h1 className='lang'>Sass</h1>
+        </div>}
+        {show &&<div className='header-2'>
+        <h1 className='lang'>TailwindCSS</h1>
             <p className='par'>Year Experience</p>
-        </div>
+        </div>}
     </div>
 
-    <div className='bgimg'>
+   { show &&<div className='bgimg header-2'>
         <img src="/assets/Group 26.svg" alt="" />
-    </div>
+    </div>}
 
     <div className='bord'>
     <div className='border3'></div>

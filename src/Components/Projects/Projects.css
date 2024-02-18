@@ -5,6 +5,9 @@
     box-sizing: border-box;
 }
 
+body{
+    overflow: hidden;
+}
 .contact2 a {
     text-decoration: none;
     color: white;
@@ -20,6 +23,10 @@
 
 .contact2 a:hover {
     color: purple;
+}
+
+.absolute3{
+    margin-top: 100px;
 }
 
 .project2 a,
@@ -156,6 +163,34 @@ a:hover {
     transition: 1s;
 }
 
+@keyframes GiorgiBachidze{
+    from {
+        transform: translateX(-300px);
+    }
+
+    to{
+        transform: translateX(0);
+    }
+}
+
+.header-44{
+    animation: GiorgiBachidze 1.5s ease-in 1s 1 normal forwards;
+}
+
+
+.header-55{
+    animation: GiorgiBachidze1 1.5s ease-in 1s 1 normal forwards;
+}
+
+
+.header-66{
+    animation: GiorgiBachidze 2.5s ease-in 1s 1 normal forwards;
+}
+.header-77{
+    animation: GiorgiBachidze1 2.5s ease-in 1s 1 normal forwards;
+}
+
+
 @media (width >= 768px) {
     .maingrid {
         display: grid;
@@ -195,7 +230,7 @@ a:hover {
     }
 
     .width2 {
-        height: 440px;
+        min-height: 440px;
     }
 
     .maingrid {

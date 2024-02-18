@@ -6,6 +6,9 @@
     overflow-x: hidden;
 }
 
+body{
+    overflow: hidden;
+}
 
 
 .GiorgiBachidze{
@@ -168,6 +171,41 @@ form{
     color: purple;
     transition: 1s;
     cursor: pointer;
+}
+
+@keyframes GiorgiBachidze{
+    from {
+        transform: translateX(-300px);
+    }
+
+    to{
+        transform: translateX(0);
+    }
+}
+
+@keyframes GiorgiBachidze1{
+    from {
+        transform: translateX(300px);
+    }
+
+    to{
+        transform: translateX(0);
+    }
+}
+
+.header-8{
+    animation: GiorgiBachidze 1.2s ease-in 1s 1 normal forwards;
+}
+.header-9{
+    animation: GiorgiBachidze1 1.2s ease-in 1s 1 normal forwards;
+}
+
+.header-10{
+    animation: GiorgiBachidze 1s ease-in 1s 1 normal forwards;
+}
+
+.header-11{
+    animation: GiorgiBachidze1 1s ease-in 1s 1 normal forwards;
 }
 @media (width >= 768px) {
     .con{

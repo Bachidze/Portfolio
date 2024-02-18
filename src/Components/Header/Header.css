@@ -10,6 +10,7 @@
 
 header {
     text-align: center;
+    overflow: hidden;
 }
 
 .flex {
@@ -160,6 +161,38 @@ header {
     margin-top: 4px;
 }
 
+@keyframes GiorgiBachidze{
+    from {
+        transform: translateX(-300px);
+    }
+
+    to{
+        transform: translateX(0);
+    }
+}
+
+
+
+.header-1{
+    animation: GiorgiBachidze 1.2s ease-in 1s 1 normal forwards;
+}
+
+
+.header-2{
+    animation: GiorgiBachidze1 1.2s ease-in 1s 1 normal forwards;
+}
+
+
+@keyframes GiorgiBachidze1{
+    from {
+        transform: translateX(300px);
+    }
+
+    to{
+        transform: translateX(0);
+    }
+}
+
 @media (width >= 768px) {
     header {
         display: flex;
@@ -170,7 +203,7 @@ header {
 
     .mainabsolute {
         position: absolute;
-        right: 0;
+        right: 10px;
         top: 0;
     }
 
