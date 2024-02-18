@@ -102,23 +102,23 @@ const Projects = () => {
 
         <div className='third'>
 
-                <img className='cardimg' src="/assets/gituser.webp" alt="card" />
+                <img className='cardimg' src="/assets/countries.png" alt="card" />
 
                 <div className='firsttxt'>
 
                     <h1 className='firsth1'>
-                        Github-User-Search
+                        Country-API
                     </h1>
 
                     <div className='languages languages2'>
                             <h5>
-                                HTML
+                                React
                             </h5>
                             <h5>
-                                CSS
+                                Typescitp
                             </h5>
                             <h5>
-                                Javascript
+                                TailwindCSS
                             </h5>
                         </div>
 
@@ -127,13 +127,13 @@ const Projects = () => {
                 <div className='viewproject'>
                     <div className='project2'>
                     
-                            <a href="https://git-hub-user-search-six.vercel.app/">VIEW PROJECT</a>
+                            <a href="https://flags-bachidze.vercel.app/">VIEW PROJECT</a>
 
                         <div className='border5'></div>
                     </div>
                     <div className='code'>
                         
-                        <a href="https://github.com/Bachidze/GitHub-User-Search">VIEW CODE</a>
+                        <a href="https://github.com/Bachidze/Flags">VIEW CODE</a>
 
                         <div className='border6'></div>
                     </div>
